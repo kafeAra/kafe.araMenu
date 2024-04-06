@@ -1,5 +1,5 @@
 document.getElementById('select').addEventListener('change', function () {
-    var selectBox = document.getElementById('select');
+    var sectBox = document.getElementById('select');
     var selectedValue = selectBox.options[selectBox.selectedIndex].value;
     window.location.href = selectedValue;
   });
