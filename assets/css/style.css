@@ -3,12 +3,9 @@ body {
   background: #0c0b09;
   color: #fff;
 }
- p{
-   color: #fff;
-   padding: 20px;
- }
+
 a{
-  color: #cda45e !important;
+  color: #cda45e;
   text-decoration: none;
 }
 
@@ -117,11 +114,10 @@ section {
 } */
 
 .menu .menu-content {
-  justify-content: center;
-  align-items: center;
+justify-content: center;
+align-items: center;
   overflow: hidden;
   display: flex;
-  padding: 1rem;
   justify-content: space-between;
   position: relative;
 }
@@ -183,7 +179,5 @@ section {
   color: rgb(255, 255, 25) !important;
   background-color: #222 !important;
 }  
-
-
 
 
