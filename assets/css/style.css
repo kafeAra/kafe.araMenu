@@ -5,6 +5,7 @@ body {
 }
  p{
    color: #fff;
+   padding: 20px;
  }
 a{
   color: #cda45e !important;
@@ -120,6 +121,7 @@ section {
   align-items: center;
   overflow: hidden;
   display: flex;
+  padding: 1rem;
   justify-content: space-between;
   position: relative;
 }
