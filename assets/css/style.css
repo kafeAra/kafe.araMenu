@@ -3,9 +3,11 @@ body {
   background: #0c0b09;
   color: #fff;
 }
-
+ p{
+   color: #fff;
+ }
 a{
-  color: #cda45e;
+  color: #cda45e !important;
   text-decoration: none;
 }
 
@@ -114,8 +116,8 @@ section {
 } */
 
 .menu .menu-content {
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
   display: flex;
   justify-content: space-between;
@@ -179,5 +181,7 @@ align-items: center;
   color: rgb(255, 255, 25) !important;
   background-color: #222 !important;
 }  
+
+
 
 
