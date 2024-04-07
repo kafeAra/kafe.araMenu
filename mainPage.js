@@ -1,9 +1,9 @@
 document.getElementById('select').addEventListener('change', function () {
-    var sectBox = document.getElementById('select');
-    var selectedValue = selectBox.options[selectBox.selectedIndex].value;
-    window.location.href = selectedValue;
-  });
-    
+  var selectBox = document.getElementById('select');
+  var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+  window.location.href = selectedValue;
+});
+
   document.addEventListener("DOMContentLoaded", function() {
     // Telefon ikonuna tıklandığında telefon numarasına yönlendirme işlevi
     var phoneIcon = document.getElementById("phoneIcon");
