@@ -175,7 +175,7 @@ align-items: center;
   font-family: "Poppins", sans-serif;
   color: rgba(255, 255, 255, 0.5);
 }
-
+   /* dil seçimi css */
 #select{
   color: rgb(255, 255, 25) !important;
   background-color: #222 !important;
@@ -197,7 +197,7 @@ align-items: center;
 }
 
 .arrow:hover {
-  opacity: 1; /* Üzerine gelindiğinde opaklık değerini tam olarak ayarladık */
+  background-color: #76520b !important;/* Üzerine gelindiğinde opaklık değerini tam olarak ayarladık */
 }
 
 .arrow i {
