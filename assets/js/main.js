@@ -241,3 +241,17 @@
 })()
 
 
+var arrow = document.getElementById('arrow');
+
+window.addEventListener('scroll', function() {
+    if (window.scrollY > 100) { // Sayfa 100 piksel aşağı kaydırıldığında
+        arrow.style.display = 'block'; // Ok görünür hale gelir
+        arrow.style.opacity = '0.5'; // Opaklık değeri ayarlanır
+    } else {
+        arrow.style.opacity = '0'; // Sayfa yeterince aşağı kaydırılmadığında opaklık sıfırlanır
+    }
+});
+
+arrow.addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Yukarı kaydırma işlemi
+});

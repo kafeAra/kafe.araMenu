@@ -175,9 +175,35 @@ align-items: center;
   font-family: "Poppins", sans-serif;
   color: rgba(255, 255, 255, 0.5);
 }
+
 #select{
   color: rgb(255, 255, 25) !important;
   background-color: #222 !important;
 }  
 
+/* ARROW CSS */
 
+.arrow {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  opacity: 0.5; /* Burada opaklık değerini ayarladık */
+  display: none;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  opacity: 1; /* Üzerine gelindiğinde opaklık değerini tam olarak ayarladık */
+}
+
+.arrow i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
