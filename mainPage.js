@@ -29,4 +29,21 @@ if (mailIcon) {
       });
     }
   });
-  
+   // JavaScript to filter products based on selected filter
+    document.addEventListener("DOMContentLoaded", function() {
+      const filters = document.querySelectorAll('#menu-flters li');
+      const products = document.querySelectorAll('.product-item');
+
+      filters.forEach(filter => {
+        filter.addEventListener('click', function() {
+          const selectedFilter = this.getAttribute('data-filter');
+
+          products.forEach(product => {
+            product.style.display = 'none';
+            if (product.classList.contains(selectedFilter)) {
+              product.style.display = 'block';
+            }
+          });
+        });
+      });
+    });

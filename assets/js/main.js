@@ -196,12 +196,6 @@
 
   });
 
-  /**
-   * Initiate glightbox 
-   */
-  const glightbox = GLightbox({
-    selector: '.glightbox'
-  });
 
   /**
    * Events slider
@@ -240,7 +234,7 @@
 
 })()
 
-
+    // YUKARI KAYDIR BUTONNU
 var arrow = document.getElementById('arrow');
 
 window.addEventListener('scroll', function() {
@@ -255,3 +249,7 @@ window.addEventListener('scroll', function() {
 arrow.addEventListener('click', function() {
     window.scrollTo({ top: 0, behavior: 'smooth' }); // Yukarı kaydırma işlemi
 });
+
+
+
+
