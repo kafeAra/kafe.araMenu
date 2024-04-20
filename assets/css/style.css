@@ -106,16 +106,18 @@ section {
   margin-top: 50px;
 }
 
-/* .menu .menu-img {
-  width: 70px;
-  border-radius: 50%;
+.menu .menu-img {
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  border-radius:05svb;  
   float: left;
-  border: 5px solid rgba(255, 255, 255, 0.2);
-} */
+  border: 3px solid #b5f907e8;
+}
 
 .menu .menu-content {
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
   display: flex;
   justify-content: space-between;
@@ -152,7 +154,7 @@ align-items: center;
 
 .menu .menu-content span {
   color: black;
- padding: 5px;
+  padding: 5px;
   flex-direction: row;
   align-items: flex-end;
   background: linear-gradient(490deg, rgba(143, 320, 27, 0.7) 30%, transparent);
@@ -168,8 +170,8 @@ align-items: center;
 
 .menu .menu-ingredients {
   box-sizing: border-box;
- justify-content: center;
- align-items: center;
+  justify-content: center;
+  align-items: center;
   font-style: italic;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
